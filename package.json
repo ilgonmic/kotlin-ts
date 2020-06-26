@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Ilya Goncharov <ilya.goncharov@jetbrains.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "cd library && ./gradlew build && cd .. && yarn run webpack"
+  },
   "dependencies": {
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.5",

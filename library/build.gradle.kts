@@ -41,6 +41,10 @@ kotlin {
 
             from(tasks.named(compilations["main"].npmProject.publicPackageJsonTaskName))
         }
+
+        tasks.named("build") {
+            dependsOn(libraryDist)
+        }
     }
     sourceSets {
         val commonMain by getting {
