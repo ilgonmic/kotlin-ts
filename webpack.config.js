@@ -9,7 +9,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            "kotlin-library": path.resolve(__dirname, 'library/build/dist')
+            "kotlin-library": path.resolve(__dirname, 'library/build/js/packages/library')
         },
         extensions: ['.ts']
     },

@@ -9,7 +9,7 @@
     "baseUrl": ".",
     "paths": {
       "kotlin-library/*": [
-        "library/build/dist"
+        "library/build/js/packages/library"
       ]
     }
   }
