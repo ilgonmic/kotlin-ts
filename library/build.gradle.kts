@@ -27,24 +27,6 @@ kotlin {
 
         }
         binaries.executable()
-
-//        val libraryDist by tasks.registering(Copy::class) {
-//            into(compilations["main"].npmProject.nodeJs.rootPackageDir.resolve("dist"))
-//            from(
-//                    binaries
-//                            .matching { it.mode == PRODUCTION }
-//                            .map { it as JsIrBinary }
-//                            .map { it.linkTask }
-//            ) {
-//                into(NpmProject.DIST_FOLDER)
-//            }
-//
-//            from(tasks.named(compilations["main"].npmProject.publicPackageJsonTaskName))
-//        }
-
-//        tasks.named("build") {
-//            dependsOn(libraryDist)
-//        }
     }
     sourceSets {
         val commonMain by getting {
