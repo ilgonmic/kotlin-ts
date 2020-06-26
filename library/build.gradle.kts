@@ -4,7 +4,7 @@ import org.jetbrains.kotlin.gradle.targets.js.npm.NpmProject
 import org.jetbrains.kotlin.gradle.targets.js.npm.npmProject
 
 plugins {
-    kotlin("multiplatform") version "1.4.255-SNAPSHOT"
+    kotlin("multiplatform") version "1.4.20-dev-1295"
     `maven-publish`
 }
 group = "me.user"
