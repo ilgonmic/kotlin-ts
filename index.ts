@@ -1,3 +1,3 @@
-import { library } from "./library/build/dist"
+import {start} from "kotlin-library/"
 
-console.log(library.start())
+console.log(start())
