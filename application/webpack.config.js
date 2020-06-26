@@ -8,9 +8,6 @@ module.exports = {
         filename: 'dist/build.js'
     },
     resolve: {
-        alias: {
-            "kotlin-library": path.resolve(__dirname, 'library/build/js/packages/library')
-        },
         extensions: ['.ts']
     },
     module: {

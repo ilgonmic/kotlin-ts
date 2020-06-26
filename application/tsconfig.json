@@ -5,12 +5,6 @@
     "strict": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "sourceMap": true,
-    "baseUrl": ".",
-    "paths": {
-      "kotlin-library/*": [
-        "library/build/js/packages/library"
-      ]
-    }
+    "sourceMap": true
   }
 }
