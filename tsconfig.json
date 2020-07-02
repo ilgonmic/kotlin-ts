@@ -8,7 +8,7 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "kotlin-library/*": [
+      "kotlin-library": [
         "library/build/js/packages/library"
       ]
     }

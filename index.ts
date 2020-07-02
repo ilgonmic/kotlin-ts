@@ -1,4 +1,4 @@
 // @ts-ignore
-import {start} from "kotlin-library/"
+const library = require("kotlin-library")
 
-console.log(start())
+console.log(library.start())
