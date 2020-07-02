@@ -1,4 +1,3 @@
-// @ts-ignore
-const library = require("kotlin-library")
+const kotlinLibrary = require("kotlin-library")
 
-console.log(library.start())
+console.log(kotlinLibrary.start())

@@ -1,10 +1,5 @@
-import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinJsBinaryMode.PRODUCTION
-import org.jetbrains.kotlin.gradle.targets.js.ir.JsIrBinary
-import org.jetbrains.kotlin.gradle.targets.js.npm.NpmProject
-import org.jetbrains.kotlin.gradle.targets.js.npm.npmProject
-
 plugins {
-    kotlin("multiplatform") version "1.4.20-dev-1295"
+    kotlin("multiplatform") version "1.4-M2"
     `maven-publish`
 }
 group = "me.user"
